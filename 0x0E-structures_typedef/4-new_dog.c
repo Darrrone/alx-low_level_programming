@@ -39,15 +39,15 @@ free(p_dog);
 return (NULL);
 }
 
-  for (i = 0; i < lname; i++)
-    p_dog->name[i] = name[i];
-  p_dog->name[i] = '\0';
+for (i = 0; i < lname; i++)
+p_dog->name[i] = name[i];
+p_dog->name[i] = '\0';
 
-  p_dog->age = age;
+p_dog->age = age;
 
-  for (i = 0; i < lowner; i++)
-    p_dog->owner[i] = owner[i];
-  p_dog->owner[i] = '\0';
+for (i = 0; i < lowner; i++)
+p_dog->owner[i] = owner[i];
+p_dog->owner[i] = '\0';
 
-  return (p_dog);
+return (p_dog);
 }
